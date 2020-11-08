@@ -59,7 +59,7 @@
 		if(!isnewplayer(M) && M.can_hear())
 			var/complete_msg = "<span class='big bold'><font color = red>[html_encode(title)]</font color><BR>[html_encode(message)]</span><BR>"
 			if(from)
-				complete_msg += "<span class='alert'>-[von]</span>"
+				complete_msg += "<span class='alert'>-[from]</span>"
 			to_chat(M, complete_msg)
 			if(M.client.prefs.toggles & SOUND_ANNOUNCEMENTS)
 				if(alert)
