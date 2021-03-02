@@ -5,8 +5,8 @@
 [![Build Status](https://github.com/BeeStation/BeeStation-Hornet/workflows/Run%20tests/badge.svg)](https://github.com/BeeStation/BeeStation-Hornet/actions?query=workflow%3A%22Run+tests%22)
 ![Open Issues](https://isitmaintained.com/badge/open/BeeStation/BeeStation-Hornet.svg)
 
-**Website:** http://beestation13.com
-**Code:** https://github.com/beestation/beestation-hornet
+**Website:** https://bees.thegreydimond.de
+**Code:** https://github.com/BienenStation/BeeStation-Hornet-A-german-fork/
 **Wiki:** https://wiki.beestation13.com/view/Main_Page
 
 
