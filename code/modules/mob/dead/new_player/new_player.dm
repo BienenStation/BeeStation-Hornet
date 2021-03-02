@@ -201,7 +201,7 @@
 
 	var/this_is_like_playing_right = "Yes"
 	if(!force_observe)
-		var/this_is_like_playing_right = alert(src,"Bist du sicher, dass du beobachten willst? Du wirst diese Runde nicht spielen können!","Spieler-Setup","Yes","No")
+		this_is_like_playing_right = alert(src,"Bist du sicher, dass du beobachten willst? Du wirst diese Runde nicht spielen können!","Spieler-Setup","Yes","No")
 
 	if(QDELETED(src) || !src.client || this_is_like_playing_right != "Yes")
 		ready = PLAYER_NOT_READY
